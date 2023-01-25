@@ -1,3 +1,4 @@
+//Ejercicio 1
 const volumen = 16*23*13;
 console.log ('volumen', volumen + 'cm3');
 
@@ -17,3 +18,15 @@ console.log ('volumen2', volumen2);
 
 const area2 = base* altura + 2*base*ancho;
 console.log('area2', area2);
+
+//Ejercicio 2 
+
+const cumple = {
+    dia: 6,
+    mes: 'mayo'
+};
+
+console.log ('Mi cumpleaños es el ' + cumple.dia + ' de '+ cumple.mes);
+
+const meses = ['Enero', 'Febrero', 'Marzo', 'Abril','Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+console.log('El mes siguiente a mi cumpleaños es:' +meses[4] )
