@@ -6,5 +6,7 @@ function NumerosPares(){
             sum += parseInt(numeritos[i])
         }
     }
-return sum;
+console.log(sum);
 }
+
+NumerosPares()
